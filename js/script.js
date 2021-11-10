@@ -50,24 +50,24 @@ class Current_game {
         this.global_box.innerHTML += `
         <div class="container_line_1 cont_line">
         
-        <img src="./img/line_bg.png" alt="" class="line1 line">
+        <img src="./css/img/line_bg.png" alt="" class="line1 line">
        
        
-        <img src="./img/line_bg.png" alt="" class="line2 line">
+        <img src="./css/img/line_bg.png" alt="" class="line2 line">
        
         </div>
         <div class="container_line_2 cont_line">
         
-        <img src="./img/line_bg.png" alt="" class="line1 line">
+        <img src="./css/img/line_bg.png" alt="" class="line1 line">
        
        
-        <img src="./img/line_bg.png" alt="" class="line2 line">
+        <img src="./css/img/line_bg.png" alt="" class="line2 line">
        
         </div>
         
         <div class='reload_div'>
         <button class=reload_button>
-        <img src="./img/reload_pic.png" alt="">
+        <img src="./css/img/reload_pic.png" alt="">
         </button>
         </div>
 
@@ -122,16 +122,16 @@ class Current_game {
     draw_figure(fig) {
         if (fig == 'x') {
             return `
-            <img class="original_gif_O" src="./img/krestic_anim1.gif" alt="">
-            <img class="original_img_O" src="./img/krestic1.png" alt="">
+            <img class="original_gif_O" src="./css/img/krestic_anim1.gif" alt="">
+            <img class="original_img_O" src="./css/img/krestic1.png" alt="">
                 
             `
         }
         if (fig == 'o') {
 
             return `
-            <img class="original_gif_O" src="./img/nolik_anim1.gif" alt="">
-            <img class="original_img_O" src="./img/nolik1.png" alt="">
+            <img class="original_gif_O" src="./css/img/nolik_anim1.gif" alt="">
+            <img class="original_img_O" src="./css/img/nolik1.png" alt="">
                 
             `
         }
